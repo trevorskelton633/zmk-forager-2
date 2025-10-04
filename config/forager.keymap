@@ -141,10 +141,10 @@
 
         Nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp UP  &kp END  &kp C_VOLUME_UP
-&trans          &trans          &trans          &trans            &trans                                        &trans    &kp LEFT    &kp DOWN    &kp RIGHT    &kp K_VOLUME_DOWN
-&trans          &trans          &trans          &trans            &trans                                        &trans    &trans      &trans      &trans       &kp C_MUTE
-                                                                  &trans                    &trans    &trans    &trans
+&trans                  &trans  &trans                  &trans  &trans       &kp HOME  &kp PAGE_DOWN            &kp PAGE_UP  &kp END                  &kp BACKSPACE
+&trans                          &trans                          &kp DELETE             &trans                                &trans                                                      &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW    &kp RIGHT_ARROW    &kp ENTER
+&kp LS(LG(LEFT_ARROW))          &kp LC(LG(LEFT_ARROW))          &kp LG(TAB)            &kp LC(LG(RIGHT_ARROW))               &kp LS(LG(RIGHT_ARROW))                                     &kp LC(HOME)      &trans            &trans          &kp LC(END)        &trans
+                                                                                                                             &trans                                  &trans    &trans    &trans
             >;
         };
 
